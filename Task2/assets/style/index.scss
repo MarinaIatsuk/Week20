@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+
+    .first {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 30%;
+
+        .content {
+            display: flex;
+            flex-basis: 20%;
+            justify-content: space-between;
+
+            .list {
+                height: 100%;
+                padding: 0.375rem 0.75rem;
+                font-family: inherit;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
+                background-color: #fceeee;
+                background-clip: padding-box;
+                border: 1px solid #bdbdbd;
+                border-radius: 0.25rem;
+                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            }
+
+            .input {
+                height: 30px;
+                padding: 0.375rem 0.75rem;
+                font-family: inherit;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
+                background-color: #fceeee;
+                background-clip: padding-box;
+                border: 1px solid #bdbdbd;
+                border-radius: 0.25rem;
+                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            }
+
+            .btn {
+                height: 100%;
+                padding: 0.375rem 0.75rem;
+                font-family: inherit;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
+                background-color: #fca8a8;
+                background-clip: padding-box;
+                border: 1px solid #bdbdbd;
+                border-radius: 0.25rem;
+                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            }
+
+            .btn:hover {
+                background-color: #fca8a891;
+            }
+
+            .btn:active {
+                background-color: #fd7b7b;
+            }
+        }
+
+    }
+
+    .second {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+
+        .loading-message {
+            display: none;
+        }
+
+
+        .result {
+            .wrapper {
+                margin: 10px;
+                padding: 10px;
+                background: linear-gradient(#fca8a891, #fca8a84b);
+            }
+        }
+
+    }
+}
